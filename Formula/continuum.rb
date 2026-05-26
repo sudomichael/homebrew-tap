@@ -1,9 +1,9 @@
 # Continuum CLI — a living project brain for AI coding agents.
 #
-# This formula is auto-bumped by the .github/workflows/homebrew.yml workflow
-# in sudomichael/continuum on every `v*` release tag — DO NOT hand-edit the
-# version / sha256 fields. Add Ruby helpers or test blocks below the asset
-# block if needed.
+# This formula is auto-bumped by the `bump homebrew tap` job inside
+# .github/workflows/release.yml in sudomichael/continuum on every `v*`
+# release tag — DO NOT hand-edit the version / sha256 fields. Add Ruby
+# helpers or test blocks below the asset block if needed.
 
 class Continuum < Formula
   desc "Living project brain — pairs Claude Code & Codex sessions to your Continuum server"
