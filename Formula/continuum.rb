@@ -8,28 +8,28 @@
 class Continuum < Formula
   desc "Living project brain — pairs Claude Code & Codex sessions to your Continuum server"
   homepage "https://getcontinuum.dev"
-  version "0.2.1"
+  version "0.2.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/sudomichael/continuum/releases/download/v#{version}/continuum-darwin-arm64"
-      sha256 "29725fb066dadb8ca67ca431eacfa8d6fd8f8381c0f7e00c9c5a056c936cd97a"
+      sha256 "28d811522a54de0eb76150a1ad868656834af9e7a238ab85354887683252b895"
     end
     on_intel do
       url "https://github.com/sudomichael/continuum/releases/download/v#{version}/continuum-darwin-amd64"
-      sha256 "1280ad960eee9839645cbe1593fdc824666088bfe2bf788491a623b12340f970"
+      sha256 "417805e4c2d8a5e6f3ff6c5760fbb894833505131a662dc856873b3d6320762a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/sudomichael/continuum/releases/download/v#{version}/continuum-linux-arm64"
-      sha256 "3c4ebd76a3f38191b541ed7428fcee1dd547a98c813507e63e0527d69710de43"
+      sha256 "a28ef8071ce4c535a456b956a72dcbe4bb2e0d9c47af8c76756dd4f8e54ff662"
     end
     on_intel do
       url "https://github.com/sudomichael/continuum/releases/download/v#{version}/continuum-linux-amd64"
-      sha256 "95098fa8bfc2ac450cc2f03def1a40627896c80daa51dd787280fdd39f4d0f49"
+      sha256 "2febb7f338bb2a58f97aa02ef6d407381587c9617b9833173961683d99d2306c"
     end
   end
 
